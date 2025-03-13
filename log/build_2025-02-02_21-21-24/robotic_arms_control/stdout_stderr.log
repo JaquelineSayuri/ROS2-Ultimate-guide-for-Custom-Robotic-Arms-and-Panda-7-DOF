@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/robotic_arms_control/robotic_arms_control.egg-info
+writing ../../build/robotic_arms_control/robotic_arms_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_arms_control/robotic_arms_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robotic_arms_control/robotic_arms_control.egg-info/entry_points.txt
+writing requirements to ../../build/robotic_arms_control/robotic_arms_control.egg-info/requires.txt
+writing top-level names to ../../build/robotic_arms_control/robotic_arms_control.egg-info/top_level.txt
+writing manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaqueline/udemy_ws/build/robotic_arms_control/build
+creating /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib
+creating /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control
+copying robotic_arms_control/__init__.py -> /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control
+copying robotic_arms_control/transform_publisher.py -> /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control
+running install
+running install_lib
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control
+copying /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control/__init__.py -> /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control
+copying /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control/transform_publisher.py -> /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control
+byte-compiling /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control/transform_publisher.py to transform_publisher.cpython-310.pyc
+running install_data
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index/resource_index
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index/resource_index/packages
+copying resource/robotic_arms_control -> /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control/launch
+copying launch/rviz_bringup.launch.py -> /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control/launch
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control/urdf
+copying urdf/bazu.urdf -> /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control/urdf
+creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control/config
+running install_egg_info
+Copying ../../build/robotic_arms_control/robotic_arms_control.egg-info to /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing transforms_pub script to /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/robotic_arms_control
+writing list of installed files to '/home/jaqueline/udemy_ws/build/robotic_arms_control/install.log'

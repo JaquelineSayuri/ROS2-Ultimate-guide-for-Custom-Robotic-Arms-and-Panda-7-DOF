@@ -1,0 +1,3 @@
+[console_scripts]
+transforms_pub = robotic_arms_control.transform_publisher:main
+

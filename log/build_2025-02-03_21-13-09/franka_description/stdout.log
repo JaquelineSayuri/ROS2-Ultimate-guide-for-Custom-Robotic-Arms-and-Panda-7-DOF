@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jaqueline/udemy_ws/build/franka_description
+-- Install configuration: ""
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//launch
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda_r2.urdf
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda_arm.ros2_control.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda_arm.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda_ros2.urdf
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/fr3
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/hand.urdf.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda_arm.urdf.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/hand.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common/franka_hand.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common/hand.urdf.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/common/inertial.yaml
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda/panda.urdf.xacro
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda/joint_limits.yaml
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/panda/panda_r1.urdf
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/dual_panda
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//robots/dual_panda/dual_panda_example.urdf.xacro
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link2.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link5.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link3.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link4.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/hand.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link0.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link1.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link7.stl
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/collision/link6.stl
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link5.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link6.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link2.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link7.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link0.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link4.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/hand.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/finger.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link1.dae
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//meshes/visual/link3.dae
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//rviz
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/environment/path.sh
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/environment/path.dsv
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/local_setup.bash
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/local_setup.sh
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/local_setup.zsh
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/local_setup.dsv
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/package.dsv
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+-- Up-to-date: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+-- Installing: /home/jaqueline/udemy_ws/install/franka_description/share/franka_description/package.xml

@@ -1,0 +1,4 @@
+[console_scripts]
+jtc_controller_test = robotic_arms_control.joint_controller_test:main
+transforms_pub = robotic_arms_control.transform_publisher:main
+

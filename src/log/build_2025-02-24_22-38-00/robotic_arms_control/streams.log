@@ -1,0 +1,22 @@
+[1.216s] Invoking command in '/home/jaqueline/udemy_ws/src/robotic_arms_control': PYTHONPATH=/home/jaqueline/udemy_ws/src/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robotic_arms_control build --build-base /home/jaqueline/udemy_ws/src/build/robotic_arms_control/build install --record /home/jaqueline/udemy_ws/src/build/robotic_arms_control/install.log --single-version-externally-managed install_data
+[1.585s] running egg_info
+[1.585s] writing ../build/robotic_arms_control/robotic_arms_control.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../build/robotic_arms_control/robotic_arms_control.egg-info/dependency_links.txt
+[1.586s] writing entry points to ../build/robotic_arms_control/robotic_arms_control.egg-info/entry_points.txt
+[1.586s] writing requirements to ../build/robotic_arms_control/robotic_arms_control.egg-info/requires.txt
+[1.586s] writing top-level names to ../build/robotic_arms_control/robotic_arms_control.egg-info/top_level.txt
+[1.587s] reading manifest file '../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.589s] writing manifest file '../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.589s] running build
+[1.589s] running build_py
+[1.589s] running install
+[1.589s] running install_lib
+[1.590s] running install_data
+[1.591s] running install_egg_info
+[1.594s] removing '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.594s] Copying ../build/robotic_arms_control/robotic_arms_control.egg-info to /home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control-0.0.0-py3.10.egg-info
+[1.597s] running install_scripts
+[1.641s] Installing jtc_controller_test script to /home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/robotic_arms_control
+[1.641s] Installing transforms_pub script to /home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/robotic_arms_control
+[1.641s] writing list of installed files to '/home/jaqueline/udemy_ws/src/build/robotic_arms_control/install.log'
+[1.682s] Invoked command in '/home/jaqueline/udemy_ws/src/robotic_arms_control' returned '0': PYTHONPATH=/home/jaqueline/udemy_ws/src/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robotic_arms_control build --build-base /home/jaqueline/udemy_ws/src/build/robotic_arms_control/build install --record /home/jaqueline/udemy_ws/src/build/robotic_arms_control/install.log --single-version-externally-managed install_data

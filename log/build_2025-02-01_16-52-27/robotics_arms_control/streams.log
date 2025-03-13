@@ -1,0 +1,33 @@
+[1.318s] Invoking command in '/home/jaqueline/udemy_ws/src/robotic_arms_control': PYTHONPATH=/home/jaqueline/udemy_ws/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arms_control build --build-base /home/jaqueline/udemy_ws/build/robotic_arms_control/build install --record /home/jaqueline/udemy_ws/build/robotic_arms_control/install.log --single-version-externally-managed install_data
+[1.836s] running egg_info
+[1.837s] creating ../../build/robotic_arms_control/robotic_arms_control.egg-info
+[1.837s] writing ../../build/robotic_arms_control/robotic_arms_control.egg-info/PKG-INFO
+[1.837s] writing dependency_links to ../../build/robotic_arms_control/robotic_arms_control.egg-info/dependency_links.txt
+[1.838s] writing entry points to ../../build/robotic_arms_control/robotic_arms_control.egg-info/entry_points.txt
+[1.838s] writing requirements to ../../build/robotic_arms_control/robotic_arms_control.egg-info/requires.txt
+[1.838s] writing top-level names to ../../build/robotic_arms_control/robotic_arms_control.egg-info/top_level.txt
+[1.838s] writing manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.840s] reading manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.842s] writing manifest file '../../build/robotic_arms_control/robotic_arms_control.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.842s] creating /home/jaqueline/udemy_ws/build/robotic_arms_control/build
+[1.842s] creating /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib
+[1.842s] creating /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control
+[1.842s] copying robotic_arms_control/__init__.py -> /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control
+[1.843s] running install
+[1.843s] running install_lib
+[1.848s] creating /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control
+[1.848s] copying /home/jaqueline/udemy_ws/build/robotic_arms_control/build/lib/robotic_arms_control/__init__.py -> /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control
+[1.851s] byte-compiling /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control/__init__.py to __init__.cpython-310.pyc
+[1.851s] running install_data
+[1.851s] creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index
+[1.852s] creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index/resource_index
+[1.852s] creating /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index/resource_index/packages
+[1.852s] copying resource/robotic_arms_control -> /home/jaqueline/udemy_ws/install/robotic_arms_control/share/ament_index/resource_index/packages
+[1.852s] copying package.xml -> /home/jaqueline/udemy_ws/install/robotic_arms_control/share/robotic_arms_control
+[1.852s] running install_egg_info
+[1.854s] Copying ../../build/robotic_arms_control/robotic_arms_control.egg-info to /home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages/robotic_arms_control-0.0.0-py3.10.egg-info
+[1.856s] running install_scripts
+[1.899s] writing list of installed files to '/home/jaqueline/udemy_ws/build/robotic_arms_control/install.log'
+[1.946s] Invoked command in '/home/jaqueline/udemy_ws/src/robotic_arms_control' returned '0': PYTHONPATH=/home/jaqueline/udemy_ws/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaqueline/udemy_ws/install/robotic_arms_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arms_control build --build-base /home/jaqueline/udemy_ws/build/robotic_arms_control/build install --record /home/jaqueline/udemy_ws/build/robotic_arms_control/install.log --single-version-externally-managed install_data

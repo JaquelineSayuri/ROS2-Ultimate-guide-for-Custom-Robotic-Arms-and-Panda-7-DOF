@@ -1,0 +1,175 @@
+[0.187s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.187s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x718f1fc69660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x718f1fc68fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x718f1fc68fa0>>, mixin_verb=('build',))
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.520s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaqueline/udemy_ws/src'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_arms_control) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'robotic_arms_control' with type 'ros.ament_python' and name 'robotic_arms_control'
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.613s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jaqueline/udemy_ws/src/install
+[0.615s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.703s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaqueline/udemy_ws/src/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaqueline/udemy_ws/src/install/franka_description', 'merge_install': False, 'path': '/home/jaqueline/udemy_ws/src/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'robotic_arms_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arms_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaqueline/udemy_ws/src/build/robotic_arms_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaqueline/udemy_ws/src/install/robotic_arms_control', 'merge_install': False, 'path': '/home/jaqueline/udemy_ws/src/robotic_arms_control', 'symlink_install': False, 'test_result_base': None}
+[0.704s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaqueline/udemy_ws/src/franka_description' with build type 'ament_cmake'
+[0.706s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaqueline/udemy_ws/src/franka_description'
+[0.709s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaqueline/udemy_ws/src/robotic_arms_control' with build type 'ament_python'
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arms_control', 'ament_prefix_path')
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/hook/ament_prefix_path.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/hook/ament_prefix_path.dsv'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/hook/ament_prefix_path.sh'
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaqueline/udemy_ws/src/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaqueline/udemy_ws/src/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/jaqueline/udemy_ws/src/build/franka_description -- -j8 -l8
+[1.318s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaqueline/udemy_ws/src/robotic_arms_control'
+[1.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaqueline/udemy_ws/src/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaqueline/udemy_ws/src/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --build /home/jaqueline/udemy_ws/src/build/franka_description -- -j8 -l8
+[1.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaqueline/udemy_ws/src/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaqueline/udemy_ws/src/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --install /home/jaqueline/udemy_ws/src/build/franka_description
+[1.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description' for CMake module files
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description' for CMake config files
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaqueline/udemy_ws/src/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaqueline/udemy_ws/src/install/robotic_arms_control:/opt/ros/humble /usr/bin/cmake --install /home/jaqueline/udemy_ws/src/build/franka_description
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/bin'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/lib/pkgconfig/franka_description.pc'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/lib/python3.10/site-packages'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/bin'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.ps1'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.dsv'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.sh'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.bash'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.zsh'
+[1.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaqueline/udemy_ws/src/install/franka_description/share/colcon-core/packages/franka_description)
+[1.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description' for CMake module files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description' for CMake config files
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/bin'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/lib/pkgconfig/franka_description.pc'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/franka_description/bin'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.bash'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/franka_description/share/franka_description/package.zsh'
+[1.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaqueline/udemy_ws/src/install/franka_description/share/colcon-core/packages/franka_description)
+[2.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaqueline/udemy_ws/src/robotic_arms_control': PYTHONPATH=/home/jaqueline/udemy_ws/src/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robotic_arms_control build --build-base /home/jaqueline/udemy_ws/src/build/robotic_arms_control/build install --record /home/jaqueline/udemy_ws/src/build/robotic_arms_control/install.log --single-version-externally-managed install_data
+[2.489s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control' for CMake module files
+[2.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaqueline/udemy_ws/src/robotic_arms_control' returned '0': PYTHONPATH=/home/jaqueline/udemy_ws/src/build/robotic_arms_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robotic_arms_control build --build-base /home/jaqueline/udemy_ws/src/build/robotic_arms_control/build install --record /home/jaqueline/udemy_ws/src/build/robotic_arms_control/install.log --single-version-externally-managed install_data
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control' for CMake config files
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/bin'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/pkgconfig/robotic_arms_control.pc'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/lib/python3.10/site-packages'
+[2.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arms_control', 'pythonpath')
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/hook/pythonpath.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/hook/pythonpath.dsv'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/hook/pythonpath.sh'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/bin'
+[2.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arms_control)
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/package.ps1'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/package.dsv'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/package.sh'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/package.bash'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/robotic_arms_control/package.zsh'
+[2.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaqueline/udemy_ws/src/install/robotic_arms_control/share/colcon-core/packages/robotic_arms_control)
+[2.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.498s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.503s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaqueline/udemy_ws/src/install/local_setup.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaqueline/udemy_ws/src/install/_local_setup_util_ps1.py'
+[2.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaqueline/udemy_ws/src/install/setup.ps1'
+[2.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaqueline/udemy_ws/src/install/local_setup.sh'
+[2.531s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaqueline/udemy_ws/src/install/_local_setup_util_sh.py'
+[2.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaqueline/udemy_ws/src/install/setup.sh'
+[2.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaqueline/udemy_ws/src/install/local_setup.bash'
+[2.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaqueline/udemy_ws/src/install/setup.bash'
+[2.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaqueline/udemy_ws/src/install/local_setup.zsh'
+[2.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaqueline/udemy_ws/src/install/setup.zsh'

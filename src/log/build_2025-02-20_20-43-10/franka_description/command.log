@@ -1,0 +1,6 @@
+Invoking command in '/home/jaqueline/udemy_ws/src/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaqueline/udemy_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/jaqueline/udemy_ws/src/install/franka_description
+Invoked command in '/home/jaqueline/udemy_ws/src/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaqueline/udemy_ws/src/franka_description -DCMAKE_INSTALL_PREFIX=/home/jaqueline/udemy_ws/src/install/franka_description
+Invoking command in '/home/jaqueline/udemy_ws/src/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaqueline/udemy_ws/src/build/franka_description -- -j8 -l8
+Invoked command in '/home/jaqueline/udemy_ws/src/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaqueline/udemy_ws/src/build/franka_description -- -j8 -l8
+Invoking command in '/home/jaqueline/udemy_ws/src/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaqueline/udemy_ws/src/build/franka_description
+Invoked command in '/home/jaqueline/udemy_ws/src/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaqueline/udemy_ws/src/build/franka_description
